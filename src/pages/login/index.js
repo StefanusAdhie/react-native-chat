@@ -12,15 +12,16 @@ import {
 	Button
 } from '../../components'
 import {
-	SocketEmit,
-	SocketOn
+	SocketEmitter
 } from '../../modules'
 
 
 class IndexScreen extends React.Component {
 	_next() {
-		SocketEmit('login', {userid: 'admin', password: 'admin'})
-		this.props.navigation.navigate('Login')
+		SocketEmitter('login', this.state.userid, (res) => {
+			console.log(res)
+			this.props.navigation.navigate('Login')
+		})
 	}
 
 	render() {
@@ -41,12 +42,6 @@ class IndexScreen extends React.Component {
 				</View>
 			</View>
 		)
-	}
-
-	componentDidMount() {
-		SocketOn('login', (res) => {
-			console.log(res)
-		})
 	}
 }
 
