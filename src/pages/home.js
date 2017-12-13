@@ -12,7 +12,7 @@ import {
 	textColor
 } from '../components'
 
-var arr = []
+var arr = [{id: '5a1852b0c1ddfbb0e2e05b96'}, {id: '5a1852c3c1ddfbb0e2e05b97'}]
 
 for(var i = 0; i < 1000; i++) {
 	arr.push({id: i})
@@ -22,6 +22,10 @@ const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2})
 
 
 class HomeScreen extends React.Component {
+	_chat(id) {
+		this.props.navigation.navigate('Chat', {id: id})
+	}
+
 	render() {
 		return (
 			<View style = {{ flex: 1 }}>
@@ -49,7 +53,9 @@ class HomeScreen extends React.Component {
 									<View style = {{ width: 50, height: 50, borderRadius: 25, borderWidth: 0.5, borderColor: '#ccc' }} />
 
 									<View style = {{ marginLeft: 5 }}>
-										<Text style = { textDefault }> {content.id} </Text>
+										<Text
+											onPress = {this._chat.bind(this, content.id)}
+											style = { textDefault }> {content.id} </Text>
 									</View>
 								</View>
 							)

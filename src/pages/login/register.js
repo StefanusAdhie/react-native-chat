@@ -13,6 +13,13 @@ import {
 
 
 class RegisterScreen extends React.Component {
+	state = {
+		email: null,
+		phone: null,
+		password: null,
+		confirmPassword: null
+	}
+
 	render() {
 		return (
 			<View style = {{ flex: 1 }}>
@@ -33,28 +40,38 @@ class RegisterScreen extends React.Component {
 				<View style = {{ flex: 1, padding: 5, backgroundColor: firstColor }}>
 					<View style = {{ flex: 1 }}>
 						<TextInput
+							onChangeText = { (text) => this.setState({email: text }) }
 							placeholder = 'email'
-							placeholderTextColor = 'white'
+							placeholderTextColor = 'darkgrey'
 							style = {[ textDefault, { height: 40, marginTop: 10, justifyContent: 'flex-end', borderBottomWidth: 1, borderColor: 'white' }]}
-							underlineColorAndroid = 'transparent'/>
+							underlineColorAndroid = 'transparent'
+							value = {this.state.email}/>
 
 						<TextInput
+							onChangeText = { (text) => this.setState({phone: text }) }
 							placeholder = 'phone'
-							placeholderTextColor = 'white'
+							placeholderTextColor = 'darkgrey'
 							style = {[ textDefault, { height: 40, marginTop: 10, justifyContent: 'flex-end', borderBottomWidth: 1, borderColor: 'white' }]}
-							underlineColorAndroid = 'transparent'/>
+							underlineColorAndroid = 'transparent'
+							value = {this.state.phone}/>
 
 						<TextInput
+							onChangeText = { (text) => this.setState({password: text }) }
 							placeholder = 'password'
-							placeholderTextColor = 'white'
+							placeholderTextColor = 'darkgrey'
+							secureTextEntry = {true}
 							style = {[ textDefault, { height: 40, marginTop: 10, justifyContent: 'flex-end', borderBottomWidth: 1, borderColor: 'white' }]}
-							underlineColorAndroid = 'transparent'/>
+							underlineColorAndroid = 'transparent'
+							value = {this.state.password}/>
 
 						<TextInput
+							onChangeText = { (text) => this.setState({confirmPassword: text }) }
 							placeholder = 'confirm password'
-							placeholderTextColor = 'white'
+							placeholderTextColor = 'darkgrey'
+							secureTextEntry = {true}
 							style = {[ textDefault, { height: 40, marginTop: 10, justifyContent: 'flex-end', borderBottomWidth: 1, borderColor: 'white' }]}
-							underlineColorAndroid = 'transparent'/>
+							underlineColorAndroid = 'transparent'
+							value = {this.state.confirmPassword}/>
 
 						<View style = {{ height: 40, marginTop: 10, marginBottom: 10, alignItems: 'center', justifyContent: 'center', borderRadius: 10, borderWidth: 0.5, borderColor: '#ccc', backgroundColor: secondColor }}>
 							<Text style = { textColor }> create account </Text>
@@ -63,6 +80,17 @@ class RegisterScreen extends React.Component {
 				</View>
 			</View>
 		)
+	}
+
+	componentWillMount() {
+		var a = /[^0-9]/
+		if(!a.test(this.props.navigation.state.params.userid)) {
+			/* phone number */
+			this.setState({phone: this.props.navigation.state.params.userid})
+		} else {
+			/* email */
+			this.setState({email: this.props.navigation.state.params.userid})
+		}
 	}
 }
 

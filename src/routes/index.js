@@ -1,24 +1,40 @@
 import React from 'react'
 import {
+	AsyncStorage
+} from 'react-native'
+
+import {
 	StackNavigator
 } from 'react-navigation'
 
 import {
 	socket,
 	SocketEmit,
-	SocketOn
+	SocketOn,
+	SocketEmitter
 } from '../modules'
-
 import IndexScreen from '../pages/login'
 import LoginScreen from '../pages/login/login'
 import RegisterScreen from '../pages/login/register'
 import HomeScreen from '../pages/home'
 import ChatScreen from '../pages/chat'
 
-const StackNavigatorConfig = {
-	headerMode: 'none'
+console.disableYellowBox = true
+
+const checkToken = () => {
+	AsyncStorage.getItem('@Token', (err, res) => {
+		if(err) {
+			return err
+		}
+
+		return res
+	})
 }
 
+const StackNavigatorConfig = {
+	headerMode: 'none',
+	// initialRouteName: checkToken() === null ? 'Index' : 'Chat'
+}
 
 const AppNavigator = StackNavigator({
 	Index: {
@@ -53,6 +69,10 @@ class App extends React.Component {
 	componentDidMount() {
 		SocketOn('connect', () => {
 			console.log('socket connect')
+
+			SocketEmitter('clientid', null, (res) => {
+				
+			})
 		})
 
 		SocketOn('error', () => {
