@@ -1,6 +1,7 @@
 import React from 'react'
 import {
 	ListView,
+	Platform,
 	Text,
 	TextInput,
 	View
@@ -28,8 +29,8 @@ class HomeScreen extends React.Component {
 
 	render() {
 		return (
-			<View style = {{ flex: 1 }}>
-				<View style = {{ flexDirection: 'row', height: 50, borderBottomWidth: 0.5, borderColor: '#ccc', backgroundColor: secondColor }}>
+			<View style = {{ flex: 1, backgroundColor: secondColor }}>
+				<View style = {{ flexDirection: 'row', height: 50, marginTop: Platform.OS === 'ios' ? 20 : 0, borderBottomWidth: 0.5, borderColor: '#ccc' }}>
 					<View style = {{ flex: 0.5, alignItems: 'center', justifyContent: 'center' }}>
 						<Text style = { textColor }> X </Text>
 					</View>

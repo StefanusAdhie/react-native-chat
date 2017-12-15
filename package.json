@@ -9,6 +9,8 @@
   "dependencies": {
     "react": "16.0.0",
     "react-native": "0.50.1",
+    "react-native-background-fetch": "^2.0.8",
+    "react-native-background-task": "^0.2.1",
     "react-native-vector-icons": "^4.4.2",
     "react-navigation": "^1.0.0-beta.19",
     "react-redux": "^5.0.6",

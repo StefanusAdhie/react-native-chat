@@ -12,12 +12,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/inovasisolusi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/inovasisolusi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_e28a1f9035e0a8ca11de449eb94a4844ad64ce1c.jar" />
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_b23a1b214c68cfd79919316c226fa121d50f7b6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/net.vrallev.android/cat/1.0.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c61a0369f93fb7901fde1bdae68fc71de256244c">
+        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/net.vrallev.android-cat-1.0.5_1a05045e3811b009b8a4037a450f3f45bb6f216e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,6 +57,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_5921b783a0859e43506a5366672e170e716217d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_12a476179c30f78d8d0bcf45eaf1bf25074dbd2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -66,12 +93,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_0b963d38710b9f5535ca2f4d91ffdfa1e4db3e94.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/inovasisolusi/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
         <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_d2ac665ec3eb58d2a9d378f2ad3377b999cbf803.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.evernote/android-job/1.1.11/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="978a742818fa8e1d6a014f26db191b7f72de2880">
+        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/com.evernote-android-job-1.1.11_8f66897aa9b312a8c32376d8958cabb2409193cd.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,15 +138,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1a1444b104d20c6ecafc7af057a7df83f23bac4b">
-        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.1_42508aba6f6169927eeb7da54ab38e8db5559992.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/inovasisolusi/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -111,12 +147,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_984648dca47897c210c1ba7731f65047d09339d1.jar" />
+        sha1="1a1444b104d20c6ecafc7af057a7df83f23bac4b">
+        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.1_42508aba6f6169927eeb7da54ab38e8db5559992.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,15 +174,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_c35c437bb4f94094f1bcc6f96a5aacb3854e0d3d.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -165,12 +192,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_bccdab97107638ce681b5ab4ffe3e17ddda1330d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/chat/react-native-vector-icons/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f2cf527de8d0bd35d72088fafea02395ba4a9eec">
         <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/chat-react-native-vector-icons-unspecified_0edd4396fd6c41c27cc8249a04b00d26e2095793.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/chat/react-native-background-task/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4af169a6d48c0fa27af242a8b56eb3a5ebc21485">
+        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/chat-react-native-background-task-unspecified_eaf23f1568d7e8973e30b79c1ff761fe13965524.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_81fe0526d7c548705ea8848e103e3663f0e19583.jar" />
     </item>
     <item
         is-multidex="false"
@@ -198,6 +252,15 @@
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
         <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_b97366291cb568ecc42a5f714c21f76f9d89a32f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_9c2855418d81ec506da65890e6bb405f8f81d3bf.jar" />
     </item>
 
 </items>

@@ -1,12 +1,13 @@
 import React from 'react'
 import {
+	Alert,
+	AppState,
 	AsyncStorage
 } from 'react-native'
 
 import {
 	StackNavigator
 } from 'react-navigation'
-
 import {
 	socket,
 	SocketEmit,
@@ -21,7 +22,25 @@ import ChatScreen from '../pages/chat'
 
 console.disableYellowBox = true
 
-const checkToken = () => {
+/*
+ *
+ react-native-background-task
+ *
+ */
+import BackgroundTask from 'react-native-background-task'
+
+BackgroundTask.define(async () => {
+	console.log('===== +++++ ===== Hello from a background task ===== +++++ =====')
+	/*navigator.geolocation.getCurrentPosition(
+		(success) => {
+			console.log(success)
+		}, (err) => console.log('===== error =====', err),
+		{enableHighAccuracy: true})*/
+	BackgroundTask.finish()
+})
+/**/
+
+const checkToken = async () => {
 	AsyncStorage.getItem('@Token', (err, res) => {
 		if(err) {
 			return err
@@ -33,7 +52,7 @@ const checkToken = () => {
 
 const StackNavigatorConfig = {
 	headerMode: 'none',
-	// initialRouteName: checkToken() === null ? 'Index' : 'Chat'
+	initialRouteName: checkToken() === null ? 'Index' : 'Home'
 }
 
 const AppNavigator = StackNavigator({
@@ -56,6 +75,36 @@ const AppNavigator = StackNavigator({
 
 
 class App extends React.Component {
+	state = {
+		appState: AppState.currentState
+	}
+
+	async checkStatus() {
+    const status = await BackgroundTask.statusAsync()
+    console.log('=====', status, BackgroundTask)
+    
+    if (status.available) {
+      // Everything's fine
+      return
+    }
+    
+    const reason = status.unavailableReason
+    if (reason === BackgroundTask.UNAVAILABLE_DENIED) {
+      Alert.alert('Denied', 'Please enable background "Background App Refresh" for this app')
+    } else if (reason === BackgroundTask.UNAVAILABLE_RESTRICTED) {
+      Alert.alert('Restricted', 'Background tasks are restricted on your device')
+    }
+  }
+
+  _handleAppStateChange = (nextAppState) => {
+    if (this.state.appState.match(/inactive|background/) && nextAppState === 'active') {
+      console.log('===== ===== App has come to the foreground! ===== =====', this.state)
+    }
+
+    console.log(nextAppState)
+    this.setState({appState: nextAppState});
+  }
+
 	render() {
 		return (
 			<AppNavigator />
@@ -78,10 +127,24 @@ class App extends React.Component {
 		SocketOn('error', () => {
 			console.log('socket error')
 		})
+
+		/*
+		 *
+		 react-native-background-task
+		 *
+		 */
+		BackgroundTask.cancel()
+		// BackgroundTask.schedule()
+		// this.checkStatus()
+		/**/
+
+		AppState.addEventListener('change', this._handleAppStateChange)
 	}
 
 	componentWillUnmount() {
 		socket.close()
+
+		AppState.removeEventListener('change', this._handleAppStateChange)
 	}
 }
 

@@ -1,4 +1,4 @@
-#Sun Nov 19 14:35:43 WIB 2017
+#Thu Dec 14 14:43:09 WIB 2017
 base.0=/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
