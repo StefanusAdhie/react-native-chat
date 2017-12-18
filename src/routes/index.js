@@ -42,6 +42,7 @@ BackgroundTask.define(async () => {
 
 const checkToken = async () => {
 	AsyncStorage.getItem('@Token', (err, res) => {
+		console.log(err, res)
 		if(err) {
 			return err
 		}
@@ -52,7 +53,7 @@ const checkToken = async () => {
 
 const StackNavigatorConfig = {
 	headerMode: 'none',
-	initialRouteName: checkToken() === null ? 'Index' : 'Home'
+	// initialRouteName: checkToken() === null ? 'Index' : 'Home'
 }
 
 const AppNavigator = StackNavigator({

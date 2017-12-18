@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-	// AsyncStorage,
+	AsyncStorage,
 	Text,
 	TextInput,
 	View
@@ -57,7 +57,7 @@ class IndexScreen extends React.Component {
 	}
 
 	componentWillMount() {
-		/*AsyncStorage.getItem('@Token', (err, res) => {
+		AsyncStorage.getItem('@Token', (err, res) => {
 			if(err) {
 				return err
 			}
@@ -70,7 +70,7 @@ class IndexScreen extends React.Component {
 					actions: [{ type: 'Navigation/NAVIGATE', routeName: 'Home' }]
 				})
 			}
-		})*/
+		})
 	}
 }
 

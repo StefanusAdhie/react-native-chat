@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/stefanus/Documents/react-native-chat/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/home/stefanus/Documents/react-native/chat/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },

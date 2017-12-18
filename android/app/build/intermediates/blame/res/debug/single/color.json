@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_search_url_text.xml"
-    },
-    {
         "merged": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
         "source": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_light.xml"
     },
@@ -16,20 +12,20 @@
         "source": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
         "merged": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
         "source": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_light.xml"
     },
     {
         "merged": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
         "source": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_light.xml"
     },
     {
         "merged": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
@@ -44,6 +40,42 @@
         "source": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_light.xml"
     },
     {
+        "merged": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
         "merged": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
         "source": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_dark.xml"
     },
@@ -52,8 +84,8 @@
         "source": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/switch_thumb_material_dark.xml"
+        "merged": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_secondary_text_material_light.xml"
     },
     {
         "merged": "/Users/inovasisolusi/Documents/StefanusAdhie/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
@@ -70,5 +102,9 @@
     {
         "merged": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
         "source": "/home/stefanus/Documents/react-native/chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/stefanus/Documents/react-native-chat/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/color/abc_primary_text_material_light.xml"
     }
 ]
