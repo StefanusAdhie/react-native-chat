@@ -58,6 +58,7 @@ class IndexScreen extends React.Component {
 
 	componentWillMount() {
 		AsyncStorage.getItem('@Token', (err, res) => {
+			// console.log('@Token', err, res)
 			if(err) {
 				return err
 			}

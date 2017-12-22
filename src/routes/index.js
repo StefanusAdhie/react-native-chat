@@ -6,7 +6,8 @@ import {
 } from 'react-native'
 
 import {
-	StackNavigator
+	StackNavigator,
+	TabNavigator
 } from 'react-navigation'
 import {
 	socket,
@@ -40,20 +41,9 @@ BackgroundTask.define(async () => {
 })
 /**/
 
-const checkToken = async () => {
-	AsyncStorage.getItem('@Token', (err, res) => {
-		console.log(err, res)
-		if(err) {
-			return err
-		}
-
-		return res
-	})
-}
 
 const StackNavigatorConfig = {
-	headerMode: 'none',
-	// initialRouteName: checkToken() === null ? 'Index' : 'Home'
+	headerMode: 'none'
 }
 
 const AppNavigator = StackNavigator({
@@ -113,7 +103,7 @@ class App extends React.Component {
 	}
 
 	componentWillMount() {
-		socket.open()
+		// socket.open()
 	}
 
 	componentDidMount() {
@@ -121,7 +111,7 @@ class App extends React.Component {
 			console.log('socket connect')
 
 			SocketEmitter('clientid', null, (res) => {
-				
+				console.log('clientid', res)
 			})
 		})
 
@@ -143,7 +133,7 @@ class App extends React.Component {
 	}
 
 	componentWillUnmount() {
-		socket.close()
+		// socket.close()
 
 		AppState.removeEventListener('change', this._handleAppStateChange)
 	}
